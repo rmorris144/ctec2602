@@ -1,3 +1,5 @@
+*.pdf
+
 *.pydevproject
 .metadata
 .gradle
