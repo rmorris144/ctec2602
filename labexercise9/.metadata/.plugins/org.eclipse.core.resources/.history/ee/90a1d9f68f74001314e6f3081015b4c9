@@ -1,0 +1,35 @@
+
+
+
+public class RegisterTest {
+
+	public static void main(String[] args) {
+	//	ArrayList<Name> register = new ArrayList<Name>();
+		
+		Register reg = new Register();
+		
+			
+			//register.addName( new Name("Ryan", "Morris") );
+			reg.addName(new Name("Ryan", "Morris"));
+			reg.addName(new Name("Percy", "Jumbalaya"));
+			reg.addName(new Name("Sam", "Jones"));
+			
+			System.out.println(reg.getTitle());
+			System.out.println(reg.toString());
+	}
+			
+	
+//	reg.getFullName();
+//	System.out.println("FullName:\n ");
+		
+	/**	System.out.println("The names contained in the array are:\n");
+		for (Name i : register) {
+			System.out.println(i.getFullName());
+		}
+		
+		register.clear();
+		if (register.isEmpty()) {
+			System.out.println("\nThe ArrayList is now empty");
+		}	**/	
+	}
+//}

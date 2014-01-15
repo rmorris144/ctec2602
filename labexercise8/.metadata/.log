@@ -1,0 +1,243 @@
+!SESSION 2013-12-19 19:59:44.527 -----------------------------------------------
+eclipse.buildId=M20130204-1200
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/MrMorris/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/MrMorris/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-12-19 20:00:00.407
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-12-19 20:00:10.438
+!MESSAGE An internal error occurred during: "Task List Indexer".
+!STACK 0
+java.nio.channels.OverlappingFileLockException
+	at sun.nio.ch.FileChannelImpl$SharedFileLockTable.checkList(FileChannelImpl.java:1166)
+	at sun.nio.ch.FileChannelImpl$SharedFileLockTable.add(FileChannelImpl.java:1068)
+	at sun.nio.ch.FileChannelImpl.tryLock(FileChannelImpl.java:868)
+	at java.nio.channels.FileChannel.tryLock(FileChannel.java:962)
+	at org.apache.lucene.store.NativeFSLock.obtain(NativeFSLockFactory.java:233)
+	at org.apache.lucene.store.NativeFSLockFactory.acquireTestLock(NativeFSLockFactory.java:85)
+	at org.apache.lucene.store.NativeFSLockFactory.makeLock(NativeFSLockFactory.java:126)
+	at org.apache.lucene.store.Directory.makeLock(Directory.java:131)
+	at org.apache.lucene.index.IndexWriter.init(IndexWriter.java:1544)
+	at org.apache.lucene.index.IndexWriter.<init>(IndexWriter.java:1074)
+	at org.eclipse.mylyn.internal.tasks.index.core.TaskListIndex.rebuildIndexCompletely(TaskListIndex.java:1179)
+	at org.eclipse.mylyn.internal.tasks.index.core.TaskListIndex.maintainIndex(TaskListIndex.java:1057)
+	at org.eclipse.mylyn.internal.tasks.index.core.TaskListIndex.access$0(TaskListIndex.java:1038)
+	at org.eclipse.mylyn.internal.tasks.index.core.TaskListIndex$MaintainIndexJob.run(TaskListIndex.java:162)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2013-12-19 20:09:37.024
+!MESSAGE Failed to open search index.
+!SESSION 2013-12-25 15:51:15.938 -----------------------------------------------
+eclipse.buildId=M20130204-1200
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/MrMorris/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/MrMorris/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-12-25 15:52:13.927
+!MESSAGE An internal error occurred during: "Task List Indexer".
+!STACK 0
+java.nio.channels.OverlappingFileLockException
+	at sun.nio.ch.FileChannelImpl$SharedFileLockTable.checkList(FileChannelImpl.java:1166)
+	at sun.nio.ch.FileChannelImpl$SharedFileLockTable.add(FileChannelImpl.java:1068)
+	at sun.nio.ch.FileChannelImpl.tryLock(FileChannelImpl.java:868)
+	at java.nio.channels.FileChannel.tryLock(FileChannel.java:962)
+	at org.apache.lucene.store.NativeFSLock.obtain(NativeFSLockFactory.java:233)
+	at org.apache.lucene.store.NativeFSLockFactory.acquireTestLock(NativeFSLockFactory.java:85)
+	at org.apache.lucene.store.NativeFSLockFactory.makeLock(NativeFSLockFactory.java:126)
+	at org.apache.lucene.store.Directory.makeLock(Directory.java:131)
+	at org.apache.lucene.index.IndexWriter.init(IndexWriter.java:1544)
+	at org.apache.lucene.index.IndexWriter.<init>(IndexWriter.java:1074)
+	at org.eclipse.mylyn.internal.tasks.index.core.TaskListIndex.rebuildIndexCompletely(TaskListIndex.java:1179)
+	at org.eclipse.mylyn.internal.tasks.index.core.TaskListIndex.maintainIndex(TaskListIndex.java:1057)
+	at org.eclipse.mylyn.internal.tasks.index.core.TaskListIndex.access$0(TaskListIndex.java:1038)
+	at org.eclipse.mylyn.internal.tasks.index.core.TaskListIndex$MaintainIndexJob.run(TaskListIndex.java:162)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.jface 2 0 2013-12-25 15:56:29.315
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-12-25 15:56:29.315
+!MESSAGE A conflict occurred for ALT+ARROW_DOWN:
+Binding(ALT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.mylyn.tasks.ui.command.goToNextUnread,Go To Next Unread Task,
+		,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@27aea0c1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.mylyn.tasks.ui.views.tasks,,,system)
+Binding(ALT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.moveLineDown,Move Lines Down,
+		Moves the selected lines down,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.MakeHandlersGo@e92c877,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-12-25 15:56:29.315
+!MESSAGE A conflict occurred for INSERT:
+Binding(INSERT,
+	ParameterizedCommand(Command(org.eclipse.mylyn.tasks.ui.command.new.local.task,New Local Task,
+		,
+		Category(org.eclipse.mylyn.tasks.ui.commands,Task Repositories,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@46a7041a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.mylyn.tasks.ui.views.tasks,,,system)
+Binding(INSERT,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.toggleOverwrite,Toggle Overwrite,
+		Toggle overwrite mode,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.MakeHandlersGo@7efe6b32,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-12-25 15:56:29.315
+!MESSAGE A conflict occurred for ALT+ARROW_UP:
+Binding(ALT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.mylyn.tasks.ui.command.goToPreviousUnread,Go To Previous Unread Task,
+		,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1997c457,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.mylyn.tasks.ui.views.tasks,,,system)
+Binding(ALT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.moveLineUp,Move Lines Up,
+		Moves the selected lines up,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.MakeHandlersGo@712fe0c0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2013-12-25 16:21:58.359
+!MESSAGE 'remote-models (http://download.eclipse.org/recommenders/models/juno/, releases+snapshots)' did not send ETAG header for 'org.eclipse.recommenders:index:zip:0.0.0'.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2013-12-25 16:21:59.114
+!MESSAGE 'remote-models (http://download.eclipse.org/recommenders/models/juno/, releases+snapshots)' did not send ETAG header for 'org.eclipse.recommenders:index:zip:0.0.0'.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2013-12-25 16:21:59.133
+!MESSAGE Updating index cancelled.
+!SESSION 2013-12-26 15:56:05.221 -----------------------------------------------
+eclipse.buildId=M20130204-1200
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/MrMorris/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/MrMorris/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-12-26 15:56:29.197
+!MESSAGE An internal error occurred during: "Task List Indexer".
+!STACK 0
+java.nio.channels.OverlappingFileLockException
+	at sun.nio.ch.FileChannelImpl$SharedFileLockTable.checkList(FileChannelImpl.java:1166)
+	at sun.nio.ch.FileChannelImpl$SharedFileLockTable.add(FileChannelImpl.java:1068)
+	at sun.nio.ch.FileChannelImpl.tryLock(FileChannelImpl.java:868)
+	at java.nio.channels.FileChannel.tryLock(FileChannel.java:962)
+	at org.apache.lucene.store.NativeFSLock.obtain(NativeFSLockFactory.java:233)
+	at org.apache.lucene.store.NativeFSLockFactory.acquireTestLock(NativeFSLockFactory.java:85)
+	at org.apache.lucene.store.NativeFSLockFactory.makeLock(NativeFSLockFactory.java:126)
+	at org.apache.lucene.store.Directory.makeLock(Directory.java:131)
+	at org.apache.lucene.index.IndexWriter.init(IndexWriter.java:1544)
+	at org.apache.lucene.index.IndexWriter.<init>(IndexWriter.java:1074)
+	at org.eclipse.mylyn.internal.tasks.index.core.TaskListIndex.rebuildIndexCompletely(TaskListIndex.java:1179)
+	at org.eclipse.mylyn.internal.tasks.index.core.TaskListIndex.maintainIndex(TaskListIndex.java:1057)
+	at org.eclipse.mylyn.internal.tasks.index.core.TaskListIndex.access$0(TaskListIndex.java:1038)
+	at org.eclipse.mylyn.internal.tasks.index.core.TaskListIndex$MaintainIndexJob.run(TaskListIndex.java:162)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SESSION 2014-01-03 13:31:06.599 -----------------------------------------------
+eclipse.buildId=M20130204-1200
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/MrMorris/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/MrMorris/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-01-03 13:31:34.681
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.core.jobs 4 2 2014-01-03 13:31:48.026
+!MESSAGE An internal error occurred during: "Task List Indexer".
+!STACK 0
+java.nio.channels.OverlappingFileLockException
+	at sun.nio.ch.FileChannelImpl$SharedFileLockTable.checkList(FileChannelImpl.java:1166)
+	at sun.nio.ch.FileChannelImpl$SharedFileLockTable.add(FileChannelImpl.java:1068)
+	at sun.nio.ch.FileChannelImpl.tryLock(FileChannelImpl.java:868)
+	at java.nio.channels.FileChannel.tryLock(FileChannel.java:962)
+	at org.apache.lucene.store.NativeFSLock.obtain(NativeFSLockFactory.java:233)
+	at org.apache.lucene.store.NativeFSLockFactory.acquireTestLock(NativeFSLockFactory.java:85)
+	at org.apache.lucene.store.NativeFSLockFactory.makeLock(NativeFSLockFactory.java:126)
+	at org.apache.lucene.store.Directory.makeLock(Directory.java:131)
+	at org.apache.lucene.index.IndexWriter.init(IndexWriter.java:1544)
+	at org.apache.lucene.index.IndexWriter.<init>(IndexWriter.java:1074)
+	at org.eclipse.mylyn.internal.tasks.index.core.TaskListIndex.rebuildIndexCompletely(TaskListIndex.java:1179)
+	at org.eclipse.mylyn.internal.tasks.index.core.TaskListIndex.maintainIndex(TaskListIndex.java:1057)
+	at org.eclipse.mylyn.internal.tasks.index.core.TaskListIndex.access$0(TaskListIndex.java:1038)
+	at org.eclipse.mylyn.internal.tasks.index.core.TaskListIndex$MaintainIndexJob.run(TaskListIndex.java:162)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SESSION 2014-01-03 13:47:55.155 -----------------------------------------------
+eclipse.buildId=M20130204-1200
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -keyring /Users/MrMorris/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data /Volumes/DISK_IMG/Second Year/ctec2602/excersises/labexercise8 -product org.eclipse.epp.package.java.product -keyring /Users/MrMorris/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-01-03 13:48:01.938
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.core.jobs 4 2 2014-01-03 13:48:15.357
+!MESSAGE An internal error occurred during: "Task List Indexer".
+!STACK 0
+java.nio.channels.OverlappingFileLockException
+	at sun.nio.ch.FileChannelImpl$SharedFileLockTable.checkList(FileChannelImpl.java:1166)
+	at sun.nio.ch.FileChannelImpl$SharedFileLockTable.add(FileChannelImpl.java:1068)
+	at sun.nio.ch.FileChannelImpl.tryLock(FileChannelImpl.java:868)
+	at java.nio.channels.FileChannel.tryLock(FileChannel.java:962)
+	at org.apache.lucene.store.NativeFSLock.obtain(NativeFSLockFactory.java:233)
+	at org.apache.lucene.store.NativeFSLockFactory.acquireTestLock(NativeFSLockFactory.java:85)
+	at org.apache.lucene.store.NativeFSLockFactory.makeLock(NativeFSLockFactory.java:126)
+	at org.apache.lucene.store.Directory.makeLock(Directory.java:131)
+	at org.apache.lucene.index.IndexWriter.init(IndexWriter.java:1544)
+	at org.apache.lucene.index.IndexWriter.<init>(IndexWriter.java:1074)
+	at org.eclipse.mylyn.internal.tasks.index.core.TaskListIndex.rebuildIndexCompletely(TaskListIndex.java:1179)
+	at org.eclipse.mylyn.internal.tasks.index.core.TaskListIndex.maintainIndex(TaskListIndex.java:1057)
+	at org.eclipse.mylyn.internal.tasks.index.core.TaskListIndex.access$0(TaskListIndex.java:1038)
+	at org.eclipse.mylyn.internal.tasks.index.core.TaskListIndex$MaintainIndexJob.run(TaskListIndex.java:162)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SESSION 2014-01-05 14:30:53.946 -----------------------------------------------
+eclipse.buildId=M20130204-1200
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -keyring /Users/MrMorris/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -data /Volumes/DISK_IMG/Second Year/ctec2602/excersises/labexercise8 -product org.eclipse.epp.package.java.product -keyring /Users/MrMorris/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-01-05 14:31:00.015
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.core.jobs 4 2 2014-01-05 14:31:11.117
+!MESSAGE An internal error occurred during: "Task List Indexer".
+!STACK 0
+java.nio.channels.OverlappingFileLockException
+	at sun.nio.ch.FileChannelImpl$SharedFileLockTable.checkList(FileChannelImpl.java:1166)
+	at sun.nio.ch.FileChannelImpl$SharedFileLockTable.add(FileChannelImpl.java:1068)
+	at sun.nio.ch.FileChannelImpl.tryLock(FileChannelImpl.java:868)
+	at java.nio.channels.FileChannel.tryLock(FileChannel.java:962)
+	at org.apache.lucene.store.NativeFSLock.obtain(NativeFSLockFactory.java:233)
+	at org.apache.lucene.store.NativeFSLockFactory.acquireTestLock(NativeFSLockFactory.java:85)
+	at org.apache.lucene.store.NativeFSLockFactory.makeLock(NativeFSLockFactory.java:126)
+	at org.apache.lucene.store.Directory.makeLock(Directory.java:131)
+	at org.apache.lucene.index.IndexWriter.init(IndexWriter.java:1544)
+	at org.apache.lucene.index.IndexWriter.<init>(IndexWriter.java:1074)
+	at org.eclipse.mylyn.internal.tasks.index.core.TaskListIndex.rebuildIndexCompletely(TaskListIndex.java:1179)
+	at org.eclipse.mylyn.internal.tasks.index.core.TaskListIndex.maintainIndex(TaskListIndex.java:1057)
+	at org.eclipse.mylyn.internal.tasks.index.core.TaskListIndex.access$0(TaskListIndex.java:1038)
+	at org.eclipse.mylyn.internal.tasks.index.core.TaskListIndex$MaintainIndexJob.run(TaskListIndex.java:162)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)

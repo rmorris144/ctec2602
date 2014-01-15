@@ -1,0 +1,2 @@
+INDEX VERSION 1.126+/Volumes/DISK_IMG/Second Year/ctec2602/excersises/labexercise5/.metadata/.plugins/org.eclipse.jdt.core
+1542574690.index

@@ -1,0 +1,85 @@
+import java.util.ArrayList;
+
+//import java.util.ArrayList;
+
+
+public class Register {
+	
+	//Fields
+	private String FirstName;
+	private String FamilyName;
+	private ArrayList<Name> namelist;
+	
+	//Constructors
+	/**Creates a empty register with no title included. */
+	public Register() {
+		this.FirstName = "";
+		this.FamilyName = "";
+		namelist = new ArrayList<Name>();
+	}
+	
+	/**Creates an empty register with a name included. */
+	public void Playlist(String FirstName) {
+		this.FirstName = " ";
+		namelist = new ArrayList<Name>();
+		
+	}
+	
+	//Methods
+	
+	public void setFirstName(String firstName) {
+		this.FirstName = firstName;
+	}
+	
+	public void setFamilyName(String familyName) {
+		this.FamilyName = familyName;
+	}
+	
+	public void removefullName(int i) {
+		namelist.remove(i);
+	}
+	
+	public void clearRegister() {
+		namelist.clear();
+	}
+	
+	public String FirsrtName() {
+		return FirstName;
+	}
+	
+	public String FamilyName() {
+		return FamilyName;
+	}
+	
+	public String toString() {
+		return "Register:[FirstName=" + FirstName + ", namelist=" + namelist + "]";
+	}
+	
+	public void addName(Name r) {
+		namelist.add(r);
+	}
+	//Returns the name in the register at index i.
+	public Name getName(int i) {
+		Name n = null;
+		if (0 <= i && i < namelist.size()) {
+            n = namelist.get(i);
+        } else {
+            n = null; // i is out of range
+        }
+        return n;
+	}
+	
+	//Returns the total names in the register
+	public int getTotalRegister() {
+		int total = 0;
+		for (Name n : namelist) {
+            total = total + n.getDuration();
+        }
+        return total;
+	}
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,15 @@
+
+public class OrderLineTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		OrderLine c = new OrderLine();
+		
+		System.out.println("Your order" + c.getCost());
+	}
+
+}

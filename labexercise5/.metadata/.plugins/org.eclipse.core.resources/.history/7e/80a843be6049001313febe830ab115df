@@ -1,0 +1,22 @@
+import java.io.*;
+
+public class NameArrayTest {
+
+	/**
+	 * @param args
+	 */
+	
+	public static String getName(){
+		return getName();
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[] name = {"Joe", "Bloggs"};
+		
+		for (String s : name) {
+			System.out.println(s.toUpperCase());
+		}
+	}
+
+}

@@ -1,0 +1,17 @@
+{
+  "/Volumes/DISK_IMG/Second Year/ctec2602/excersises/labexercise7/employees/src": {
+    "location": "/Volumes/DISK_IMG/Second Year/ctec2602/excersises/labexercise7/employees/src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027/Volumes/DISK_IMG/Second Year/ctec2602/excersises/labexercise7/employees/src\u0027. Skipped."
+  },
+  "/Volumes/DISK_IMG/Second Year/ctec2602/excersises/labexercise7/dicegame/src": {
+    "location": "/Volumes/DISK_IMG/Second Year/ctec2602/excersises/labexercise7/dicegame/src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027/Volumes/DISK_IMG/Second Year/ctec2602/excersises/labexercise7/dicegame/src\u0027. Skipped."
+  },
+  "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar": {
+    "coordinate": "jre:jre:zip:call:1.0.0",
+    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar",
+    "status": "RESOLVED"
+  }
+}

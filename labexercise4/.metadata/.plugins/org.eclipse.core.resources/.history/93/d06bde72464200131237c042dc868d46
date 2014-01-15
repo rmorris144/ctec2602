@@ -1,0 +1,13 @@
+
+public class BankAccountTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		BankAccount momSavings = new BankAccount(1000);
+		momSavings.getBalance = 0;
+	}
+
+}

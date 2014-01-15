@@ -1,0 +1,19 @@
+
+public class StringListTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String [] ArrayList= {"Ryan", "Morris", "Tino", "Govere"};
+		
+		public void setmethod() {
+			return 0;
+		}
+		
+		
+		
+	}
+
+}

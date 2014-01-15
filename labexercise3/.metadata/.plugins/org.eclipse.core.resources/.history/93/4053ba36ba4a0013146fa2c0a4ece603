@@ -1,0 +1,43 @@
+
+public class ModuloCounterTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Testing default constructor initialisation and get method...");
+		ModuloCounter mc = new ModuloCounter;
+		System.out.println("Expected 0: Actual: " + mc.getCount());
+		
+		System.out.println("Testing increment method...");
+		mc.increment();
+		mc.increment();
+		System.out.println("Expected 2: Actual: " + mc.getCount());
+		
+		System.out.println("Testing set method...");
+		mc.setCount(10);
+		System.out.println("Expected 10: Actual: " + mc.getCount());
+		
+		System.out.println("Testing custom constructor initialisation...");
+		ModuloCounter mc1 = new ModuloCounter(5); //Note: creating a second object instance of the Counter class (which has its own state)
+		System.out.println("Expected 5: Actual: " + c1.getCount());
+		
+		System.out.println("Testing reset method...");
+		c1.reset();
+		System.out.println("Expected 0: Actual: " + c1.getCount());
+		
+		System.out.println("Testing toString method...");
+		System.out.println("Expected count=0: Actual: " + mc1.toString());
+		
+		System.out.println("Testing toString method...");
+		System.out.println("Expected count=0: Actual: " + mc1.toString());
+		
+		System.out.println("Testing decrement method..");
+		mc.decrement();
+		mc.decrement();
+		System.out.println("Expected 1: Actual:" + mc.getCount());
+		
+	}
+
+}

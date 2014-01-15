@@ -1,0 +1,106 @@
+import java.util.ArrayList;
+
+//import java.util.ArrayList;
+
+
+public class Register {
+	
+	//Fields
+	//private String name;
+	//private int duration;
+	private ArrayList<Name> namelist;//COLLECTION OF NAMES IN THE REGISTER
+	private String Title;
+	
+	//Constructors
+	/**public Register() {
+		namelist = new ArrayList<Name>();
+	}*/
+	
+	public Register() {
+		this.Title = "Luke Attwood Register";
+		namelist = new ArrayList<Name>();
+	}
+	
+	/**Creates a empty register with no title included. */
+	public Register(String Title) {
+		this.Title = Title;
+		namelist = new ArrayList<Name>();
+	}
+	
+	
+	
+	
+	
+	/**Creates an empty register with a name included. */
+	
+	//Methods
+
+	/****************************************************
+	 * 
+	 * 
+	 * 
+	 * 
+	 ****************************************************/
+	
+	public void setTitle(String Title) {
+		this.Title = Title;
+	}
+	
+	public String getTitle() {
+		return Title;
+	}
+	
+	public void addName(Name r) {
+		namelist.add(r);
+	}
+	
+	public int sizeofReg() {
+		return namelist.size();
+	}
+	
+	public String removeName(String i) {
+		namelist.remove(i);
+		return i;
+	}
+	
+	
+	public void clearRegister() {
+		namelist.clear();
+	}
+	
+	public String toString() {
+		return "Register: Title = " + Title + "\nnamelist = " + namelist + "\n";
+	}
+	
+	
+	/**public String toString() {
+		return "Register:[FirstName=" + FirstName + ", namelist=" + namelist + "]";
+	} */
+	
+	
+	//Returns the name in the register at index i.
+	public Name getName(int i) {
+		Name n = null;
+		if (0 <= i && i < namelist.size()) {
+            n = namelist.get(i);
+        } else {
+            n = null; // i is out of range
+        }
+        return n;
+	} 
+	
+	//Returns the total names in the register
+	/**public int getTotalRegister() {
+		int total = 0;
+		for (Name n : namelist) {
+            total = total + n.();
+        }
+        return total;
+	} **/
+	
+	
+	
+	
+	
+	
+}

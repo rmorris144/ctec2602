@@ -1,0 +1,30 @@
+
+public class StringListTest {
+
+	/**
+	 * @param args
+	 */
+	
+	private int ArrayList;
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String [] ArrayList= {"Ryan", "Morris", "Tino", "Govere"};
+		
+		public int getArrayList() {
+			return ArrayList;
+		}
+		
+		
+		public void setArrayList(int ArrayList) {
+			ArrayList = Array;
+		}
+		
+		for (String s : ArrayList) {
+			System.out.println(s.setArrayList());
+		}
+		
+		
+	}
+
+}

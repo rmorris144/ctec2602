@@ -1,0 +1,21 @@
+import java.io.*;
+
+public class NameArrayTest {
+
+	/**
+	 * @param args
+	 */
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[] name = {"Joe", "Bloggs"};
+		int c;
+		System.out.println(name);
+		
+		c = name.length;
+		System.out.println("4 character is: " + name.length);
+		
+	}
+
+}
